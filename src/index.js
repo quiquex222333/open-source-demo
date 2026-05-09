@@ -1,4 +1,4 @@
-const { sum, calculateDiscount } = require('./caalculator.js');
+const { sum, calculateDiscount } = require('./calculator.js');
 
 console.log('\n\n\n\n\n\nHello, World!');
 console.log('This is a simple JavaScript file.');

@@ -18,7 +18,7 @@ Contiene dos partes:
 presentacion/
 ├── src/
 │   ├── index.js
-│   └── caalculator.js
+│   └── calculator.js
 ├── slidev/
 │   ├── slides.md
 │   ├── components/
@@ -96,7 +96,7 @@ Mas detalle en [slidev/README.md](./slidev/README.md).
 La demo de `src/` esta unificada en CommonJS:
 
 - `src/index.js` usa `require`
-- `src/caalculator.js` usa `module.exports`
+- `src/calculator.js` usa `module.exports`
 
 Con esto, `npm run dev` ya no muestra el warning de `MODULE_TYPELESS_PACKAGE_JSON`.
 
